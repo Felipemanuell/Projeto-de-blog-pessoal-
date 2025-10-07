@@ -42,8 +42,8 @@ export class TemaService {
             },
             relations: {
                 postagem: true
-            }
-        })
+         }
+      })
     }
 
     async create(Tema: Tema): Promise<Tema> {
